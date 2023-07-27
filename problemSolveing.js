@@ -130,7 +130,7 @@ const passwordLength = 12;
 const randomPassword = generateRandomPassword(passwordLength);
 console.log("Random Password:", randomPassword);
 
-//   Task 7: Implement a function that converts a Roman numeral to an integer. The function should take a Roman numeral string (e.g., "IX" or "XXI") as input and return the corresponding integer value.
+//   Task 6: Implement a function that converts a Roman numeral to an integer. The function should take a Roman numeral string (e.g., "IX" or "XXI") as input and return the corresponding integer value.
 
 function romanToInteger(romanNumeral) {
   const romanNumeralsMap = new Map([
@@ -170,7 +170,7 @@ console.log(romanToInteger(romanNumeral1));
 console.log(romanToInteger(romanNumeral2));
 console.log(romanToInteger(romanNumeral3));
 
-//   Task 8: Implement a JavaScript function to find the second smallest element in an array of numbers. The function should return the second smallest number.
+//   Task 7: Implement a JavaScript function to find the second smallest element in an array of numbers. The function should return the second smallest number.
 function findSecondSmallest(arr) {
   if (arr.length < 2) {
     throw new Error("Array must have at least two elements.");
